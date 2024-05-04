@@ -449,3 +449,4 @@ PRODUCT_PACKAGES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/ruby/ruby-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
